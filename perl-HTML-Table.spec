@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Table
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-Table perl module
 Summary(pl):	Modu³ perla HTML-Table
 Name:		perl-HTML-Table
 Version:	1.11
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ HTML-Table module produces HTML tables.
 Modu³ HTML-Table tworzy tabele w HTML.
 
 %prep
-%setup -q -n HTML-Table-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
