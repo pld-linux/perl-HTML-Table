@@ -8,12 +8,12 @@
 Summary:	HTML::Table perl module
 Summary(pl):	Modu³ perla HTML::Table
 Name:		perl-HTML-Table
-Version:	1.17
-Release:	2
+Version:	1.19
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4100d2aac174e6c40b0371bf9c95f0de
+# Source0-md5:	9eafe8b0f6f5ae711042eb4a87170e57
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
