@@ -28,7 +28,7 @@ Modu³ HTML::Table tworzy tabele w HTML.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
