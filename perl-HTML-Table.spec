@@ -2,7 +2,7 @@
 Summary:	HTML-Table perl module
 Summary(pl):	Modu³ perla HTML-Table
 Name:		perl-HTML-Table
-Version:	1.06
+Version:	1.07
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
