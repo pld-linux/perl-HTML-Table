@@ -1,10 +1,14 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Table
 Summary:	HTML::Table perl module
 Summary(pl):	Modu³ perla HTML::Table
 Name:		perl-HTML-Table
-Version:	1.16
+Version:	1.17
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -26,6 +30,7 @@ Modu³ HTML::Table tworzy tabele w HTML.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
