@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Table
-Summary:	HTML-Table perl module
-Summary(pl):	Modu³ perla HTML-Table
+Summary:	HTML::Table perl module
+Summary(pl):	Modu³ perla HTML::Table
 Name:		perl-HTML-Table
 Version:	1.11
 Release:	3
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-Table module produces HTML tables.
+HTML::Table module produces HTML tables.
 
 %description -l pl
-Modu³ HTML-Table tworzy tabele w HTML.
+Modu³ HTML::Table tworzy tabele w HTML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
