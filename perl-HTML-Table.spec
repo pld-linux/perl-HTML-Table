@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Table
+%define		pdir	HTML
+%define		pnam	Table
 Summary:	HTML::Table perl module - producing HTML tables
 Summary(pl):	Modu³ perla HTML::Table - tworzenie tabelek w HTML-u
 Name:		perl-HTML-Table
