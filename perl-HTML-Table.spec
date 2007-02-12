@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Table
 Summary:	HTML::Table perl module - producing HTML tables
-Summary(pl):	Modu³ perla HTML::Table - tworzenie tabelek w HTML-u
+Summary(pl.UTF-8):   ModuÅ‚ perla HTML::Table - tworzenie tabelek w HTML-u
 Name:		perl-HTML-Table
 Version:	2.02
 Release:	1
@@ -28,12 +28,12 @@ simplifies creating tables within tables from Perl. It is possible to
 create an entire table using the methods provided and never use an
 HTML tag.
 
-%description -l pl
-HTML::Table s³u¿y do generowania tabelek w HTML-u z poziomu skryptów
-CGI. Przy u¿yciu dostarczonych metod mo¿na tworzyæ, obrabiaæ i
-drukowaæ dosyæ skomplikowane tabele z poziomu skryptów perlowych.
-Modu³ tak¿e znakomicie upraszcza tworzenie tabelek w tabelkach. Mo¿na
-stworzyæ ca³± tabelê przy u¿yciu tych metod be u¿ycia ani jednego
+%description -l pl.UTF-8
+HTML::Table sÅ‚uÅ¼y do generowania tabelek w HTML-u z poziomu skryptÃ³w
+CGI. Przy uÅ¼yciu dostarczonych metod moÅ¼na tworzyÄ‡, obrabiaÄ‡ i
+drukowaÄ‡ dosyÄ‡ skomplikowane tabele z poziomu skryptÃ³w perlowych.
+ModuÅ‚ takÅ¼e znakomicie upraszcza tworzenie tabelek w tabelkach. MoÅ¼na
+stworzyÄ‡ caÅ‚Ä… tabelÄ™ przy uÅ¼yciu tych metod be uÅ¼ycia ani jednego
 znacznika HTML.
 
 %prep
