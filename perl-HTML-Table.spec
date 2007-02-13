@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Table
 Summary:	HTML::Table perl module - producing HTML tables
-Summary(pl.UTF-8):   Moduł perla HTML::Table - tworzenie tabelek w HTML-u
+Summary(pl.UTF-8):	Moduł perla HTML::Table - tworzenie tabelek w HTML-u
 Name:		perl-HTML-Table
 Version:	2.02
 Release:	1
