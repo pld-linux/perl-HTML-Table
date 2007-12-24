@@ -8,13 +8,13 @@
 Summary:	HTML::Table perl module - producing HTML tables
 Summary(pl.UTF-8):	Moduł perla HTML::Table - tworzenie tabelek w HTML-u
 Name:		perl-HTML-Table
-Version:	2.02
+Version:	2.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1c307b8fbb06d2ccbe08714632b418d9
+# Source0-md5:	c307512528ca9356c70ba9a1ff4651f5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
